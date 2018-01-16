@@ -3,6 +3,7 @@ Hsrminer neoscrypt fork by Justaminer.
 Features:
 
 ~   0% devfee
+
 ~   -r N option added, where N is number of reconnect attempts, usage example:
      
      hsrminer_neoscrypt_fork.exe -r 1 -o URL -u User -p Pass 
