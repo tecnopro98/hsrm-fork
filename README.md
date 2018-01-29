@@ -1,8 +1,10 @@
-Hsrminer neoscrypt fork by Justaminer, version 22.01.2018
+Hsrminer neoscrypt fork by Justaminer, version 29.01.2018
 
 Features:
 
 ~    0% devfee
+
+~    added options --api-bind, --algo, -a, --benchmark, --retries , see --help for details
 
 ~    API is working! By default you can connect to 127.0.0.1:4068 from the same computer. 
 
