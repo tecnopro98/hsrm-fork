@@ -1,8 +1,10 @@
-Hsrminer neoscrypt fork by Justaminer, version 29.01.2018
+Hsrminer neoscrypt fork by Justaminer, version 31.01.2018
 
 Features:
 
 ~    0% devfee
+
+~    fixed crash on Windows 10 1709
 
 ~    added options --api-bind, --algo, -a, --benchmark, --retries , see --help for details
 
