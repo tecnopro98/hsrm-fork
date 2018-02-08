@@ -1,8 +1,18 @@
-Hsrminer neoscrypt fork by Justaminer, version 31.01.2018
+Hsrminer neoscrypt fork by Justaminer, version 08.02.2018
 
 Features:
 
 ~    0% devfee
+
+     Version: 08.02.2018
+
+~    fixed palgin's bug in -d option parsing, so now you can use -d with card's number > 9, i.e. -d 10,11,12. This miner supports up to 16 gpus( from 0 to 15 in -d parameter).
+
+~    API now correctly shows GPU's core frequency, fan %, temperature and hashrate for each gpu, also total accepted/rejected counters.
+
+~    Added separate high process priority version (hsrminer_neoscrypt_fork_hp.exe) which will give more hashrate (I get +50 kh/s for 1070), but it will stress GPUs more, so overclocked too much GPU's can crash\hang, etc. So if you have troubles with this version, use normal process priority version (hsrminer_neoscrypt_fork.exe).
+
+     Version: 31.01.2018
 
 ~    fixed crash on Windows 10 1709
 
