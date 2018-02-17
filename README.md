@@ -1,9 +1,24 @@
-Hsrminer neoscrypt fork by Justaminer, version 08.02.2018
+This is Hsrminer neoscrypt fork by Justaminer, with 0% devfee, working API, -r and many new options!
+
+Latest version: 16.02.2018
 
 Features:
 
 ~    0% devfee
+     
+     Version: 16.02.2018
+     
+~    miner is now compatible with NiceHashMinerLegacy's quick and standart benchmarks, so you can use it with NHML instead of Ccminer Klaust for example: exit from NHML, go to your NHML folder, \bin\ccminer_klaust\ , delete ccminer.exe, put hsrminer_neoscrypt_fork.exe or  hsrminer_neoscrypt_fork_hp.exe there and rename it to ccminer.exe
 
+~    miner is compatible with SniffDogMiner, it can download my miner directly from this git, or you can manually put it instead of ccminer klaust for example: close Sniffdogminer, go to its folder, \bin\NVIDIA-Klaust\ , delete ccminer.exe, put hsrminer_neoscrypt_fork.exe or  hsrminer_neoscrypt_fork_hp.exe there and rename it to ccminer.exe
+
+~    "Overall speed .." message is now appear more often, after every 7 accepted shares. Correct overall speed will be calculated when every GPU will find valid share, so the more GPUs you have, the more time required to calculate correct overall speed.
+
+~    added options -R, --retry-pause, it lets you specify pause in seconds before make another connection attempt in case of network failure . Default value of -R is 10 seconds, it can be too much for someone, so now you can tweak it.
+
+~    process priority of normal priority version is increased, it's now 3 by default instead of 2. You can manually tweak process priority of miner with -c option.
+     
+     
      Version: 08.02.2018
 
 ~    fixed palgin's bug in -d option parsing, so now you can use -d with card's number > 9, i.e. -d 10,11,12. This miner supports up to 16 gpus( from 0 to 15 in -d parameter).
@@ -11,6 +26,7 @@ Features:
 ~    API now correctly shows GPU's core frequency, fan %, temperature and hashrate for each gpu, also total accepted/rejected counters.
 
 ~    Added separate high process priority version (hsrminer_neoscrypt_fork_hp.exe) which will give more hashrate (I get +50 kh/s for 1070), but it will stress GPUs more, so overclocked too much GPU's can crash\hang, etc. So if you have troubles with this version, use normal process priority version (hsrminer_neoscrypt_fork.exe).
+
 
      Version: 31.01.2018
 
