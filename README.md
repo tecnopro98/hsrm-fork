@@ -1,5 +1,7 @@
 This is Hsrminer neoscrypt fork by Justaminer, with 0% devfee, working API, -r and many new options!
 
+https://bitcointalk.org/index.php?topic=2765610.0
+
 Latest version: 16.02.2018
 
 Features:
@@ -49,3 +51,14 @@ Features:
      This option will make miner try to reconnect 1 time if connection to pool failed and then exit.
     
      If you specify -r 0 , miner will exit immediately after connection to pool lost.
+     
+     
+
+------------------------------------------   
+If you like this software, you can donate:
+
+BTC: 1DDZ54Uy59ph5k5aJA4NpMPX6WkKWuY19c
+
+LTC:  LYdkrQANCviyN9R3wUeCi6hBAWrksDyC7U
+
+ETH: 0xb76361C6CD3A1703B95C0b16fE1a67942871bd29
