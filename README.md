@@ -2,11 +2,21 @@ This is Hsrminer neoscrypt fork by Justaminer, with 0% devfee, working API, -r a
 
 https://bitcointalk.org/index.php?topic=2765610.0
 
-Latest version: 16.02.2018
+Latest version: 20.02.2018
 
 Features:
 
 ~    0% devfee
+     
+     
+     Version: 20.02.2018
+     
+~    Added support for GTX 970, 980 and 980 Ti !
+
+~    fixed minor bug in benchmark with NiceHashMinerLegacy
+
+~    fixed minor bug in -r N option, in rare cases miner could still try to connect even if number of attempts were > N
+
      
      Version: 16.02.2018
      
